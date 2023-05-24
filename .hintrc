@@ -1,0 +1,7 @@
+{
+  "extends": ["development"],
+  "formatters": ["summary"],
+  "hints": {
+    "button-type": "error"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "chat-app-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "cd chat-app-frontend && npm install && npm run build"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },  
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "mongoose": "^7.2.0",
+    "morgan": "~1.9.1",
+    "socket.io": "^4.6.1"
+  }
+}
